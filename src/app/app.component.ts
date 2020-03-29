@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { rate } from '../video-rate-parameter';
 
 @Component({
   selector: 'video-test',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+  videoRate = rate;
 }
